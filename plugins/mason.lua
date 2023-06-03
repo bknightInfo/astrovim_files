@@ -11,7 +11,7 @@ return {
         "intelephense",
         "gopls",
         "lua_ls",
-        "pyright",
+        --        "pyright",
       })
     end,
   },
@@ -25,10 +25,10 @@ return {
         "golines", -- go formatter
         "stylua", -- lua formatter
         "phpcsfixer", -- php formatter
-        "black", -- python formatter
+        --       "black", -- python formatter
         "golangci-lint", -- go lineter
         "phpstan", -- php linter
-        "flake8", -- python linter
+        --        "flake8", -- python linter
       })
     end,
   },

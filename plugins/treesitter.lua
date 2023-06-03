@@ -6,7 +6,7 @@ return {
       "go",
       "lua",
       "php",
-      "python",
+      --      "python",
     })
   end,
 }

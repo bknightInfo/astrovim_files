@@ -16,9 +16,9 @@ return {
       formatting.prettier, -- js/ts formatter
       formatting.stylua, -- lua formatter
       formatting.phpcsfixer, -- php formatter
-      formatting.black, -- python formatter
+      --     formatting.black, -- python formatter
       diagnostics.phpstan, -- php linter
-      diagnostics.flake8, -- python linter
+      --      diagnostics.flake8, -- python linter
     }
     return config -- return final config table
   end,

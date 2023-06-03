@@ -7,7 +7,7 @@ return {
   { import = "astrocommunity.pack.go" },
   { import = "astrocommunity.pack.php" },
 
-  { import = "astrocommunity.colorscheme.tokyonight" },
+  --  { import = "astrocommunity.colorscheme.tokyonight" },
   -- { import = "astrocommunity.colorscheme.catppuccin" },
   -- { import = "astrocommunity.completion.copilot-lua-cmp" },
 }
