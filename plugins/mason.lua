@@ -22,11 +22,11 @@ return {
     opts = function(_, opts)
       -- add more things to the ensure_installed table protecting against community packs modifying it
       opts.ensure_installed = require("astronvim.utils").list_insert_unique(opts.ensure_installed, {
-        "golines", -- go formatter
+       --  "golines", -- go formatter
         "stylua", -- lua formatter
         "phpcsfixer", -- php formatter
         --       "black", -- python formatter
-        "golangci-lint", -- go lineter
+        -- "golangci-lint", -- go lineter
         "phpstan", -- php linter
         --        "flake8", -- python linter
       })
